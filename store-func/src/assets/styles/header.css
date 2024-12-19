@@ -1,0 +1,28 @@
+/*.header-container {
+    height: auto;
+    background-color: transparent;
+}*/
+
+.header-body {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    min-height: 3rem;
+    background-color: #000;
+}
+
+.header-menu {    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-menu__menu-item {
+    padding: 0px 15px;
+    max-width: 250px;
+    word-wrap: break-word;
+}
+
+.header-menu__menu-item-link {
+    color: #FFF;
+}
